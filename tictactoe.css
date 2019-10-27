@@ -1,0 +1,26 @@
+.board
+{
+    display: grid;
+    grid-template-columns: 130px 130px 130px;
+}
+
+.field
+{
+    border: 1px solid black;
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f5f5f5;
+    font-size: 100px;
+}
+
+.field:hover
+{
+    background-color: #d3d3d3;
+}
+
+#turn
+{
+    font-size:50px;
+}
